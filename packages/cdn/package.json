@@ -1,0 +1,25 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "description": "重新构建输出结构和替换CDN地址",
+  "author": "CYL",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/cdn": {
+      "accelerator": "CmdOrCtrl+Shift+D",
+      "message": "cdn:open"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "设置CDN地址",
+    "width": 400,
+    "height": 200
+  },
+  "profiles": {
+    "project": {
+      "remoteUrl": ""
+    }
+  }
+}
